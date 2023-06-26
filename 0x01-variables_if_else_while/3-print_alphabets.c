@@ -1,20 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-int main() {
-    int i;
 
-    // Print lowercase alphabet
-    for (i = 0; i < 26; i++) {
-        putchar('a' + i);
-    }
+/**
+ * maain - Entry point\
+ * Return: Always 0 (Success)
+ */
 
-    // Print uppercase alphabet
-    for (i = 0; i < 26; i++) {
-        putchar('A' + i);
-    }
 
-    // Print new line
-    putchar('\n');
+int main(void)
 
-    return 0;
+{
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+	putchar('\n');
+
+	return (0);
 }
