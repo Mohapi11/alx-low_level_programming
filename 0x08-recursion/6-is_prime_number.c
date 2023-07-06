@@ -12,7 +12,7 @@ int check_prime(int n, int i);
  */
 int is_prime_number(int n)
 {
-	return (check_prime(m, 1));
+	return (check_prime(n, 1));
 }
 
 /**
@@ -20,7 +20,7 @@ int is_prime_number(int n)
  * @n: the number to be checked
  * @i: the interation times
  *
- * Return: 1 for primw or 0 composite
+ * Return: 1 for prime or 0 composite
  */
 int check_prime(int n, int i)
 {
